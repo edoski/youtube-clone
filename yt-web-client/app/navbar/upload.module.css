@@ -1,0 +1,13 @@
+.uploadInput {
+    display: none; /* Hide the input */
+}
+
+.uploadIcon:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 40%;
+}
+
+.uploadIcon {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}

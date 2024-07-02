@@ -21,7 +21,6 @@ export const createUser = functions.auth.user().onCreate((user) => {
         email: user.email,
         photoUrl: user.photoURL,
         displayName: user.displayName,
-        phoneNumber: user.phoneNumber
     };
 
     firestore.collection("users").doc(user.uid).set(userInfo);

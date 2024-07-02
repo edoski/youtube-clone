@@ -7,6 +7,9 @@ import {
     onAuthStateChanged,
     User
 } from "firebase/auth";
+import {user} from "firebase-functions/v1/auth";
+import {userInfo} from "node:os";
+import {getAll} from "@firebase/remote-config";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
